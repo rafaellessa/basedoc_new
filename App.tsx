@@ -1,8 +1,13 @@
+import {NavigationContainer} from '@react-navigation/native';
 import React from 'react';
-import {View} from 'react-native';
+import Stack from './src/navigation/Stack';
 
 const App: React.FC = () => {
-  return <View />;
+  return (
+    <NavigationContainer>
+      <Stack />
+    </NavigationContainer>
+  );
 };
 
 export default App;
