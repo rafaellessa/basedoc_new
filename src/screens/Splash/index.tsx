@@ -1,9 +1,15 @@
 import React from 'react';
 
-import {Container} from './styles';
+import {Container, LogoBaseDoc} from './styles';
+
+import Logo from '../../assets/logo.png';
 
 const Splash: React.FC = () => {
-  return <Container />;
+  return (
+    <Container>
+      <LogoBaseDoc source={Logo} />
+    </Container>
+  );
 };
 
 export default Splash;
